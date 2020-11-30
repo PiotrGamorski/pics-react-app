@@ -24,7 +24,7 @@ class SearchBar extends React.Component {
               value={this.state.term}
               onClick={()=> this.onInputClick()}
               onChange={(e) =>
-                this.setState({ term: e.target.value.toUpperCase() })
+                this.setState({ term: e.target.value})
               }
             />
           </div>
